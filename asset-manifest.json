@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/TelegramScrape/static/css/main.94923431.css",
+    "main.js": "/TelegramScrape/static/js/main.99f9b7e0.js",
+    "static/media/bestsky.jpg": "/TelegramScrape/static/media/bestsky.8a9d4f3c1864f6bb03c3.jpg",
+    "index.html": "/TelegramScrape/index.html",
+    "main.94923431.css.map": "/TelegramScrape/static/css/main.94923431.css.map",
+    "main.99f9b7e0.js.map": "/TelegramScrape/static/js/main.99f9b7e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94923431.css",
+    "static/js/main.99f9b7e0.js"
+  ]
+}
