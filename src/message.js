@@ -8,7 +8,6 @@ const myrefTWo=useRef();
 
 function sendCode() {
 if (myrefOne.current.value!='') {
-  setShowBtn(!showBtn);
   let obj={
     phoneNumber:myrefOne.current.value
   }  
@@ -19,6 +18,7 @@ if (myrefOne.current.value!='') {
     }
   }
 ).then(res=>{
+    setShowBtn(!showBtn);
     console.log(res.data);
     console.log('success');
     alert('CODE SENT')
@@ -33,7 +33,6 @@ if (myrefOne.current.value!='') {
 
 function confirm(  ) {
   if (myrefTWo.current.value!='') {
-    setShowBtn(!showBtn)
     let obj={
       phoneNumber:myrefOne.current.value,
       code:myrefTWo.current.value
@@ -45,6 +44,7 @@ function confirm(  ) {
       }
     }
   ).then(res=>{
+     setShowBtn(!showBtn)
       console.log(res.data);
       console.log('success');
       myrefOne.current.value='';
